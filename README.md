@@ -1,4 +1,4 @@
-# RAG LangChain & DeepAgents
+# Agentic RAG LangChain & DeepAgents
 
 A Retrieval-Augmented Generation (RAG) system with multi-agent chunk analysis built using **LangChain**, **DeepAgents**, and **OpenRouter**.
 

@@ -1,5 +1,5 @@
 [project]
-name = "rag-langchain"
+name = "DocumentQA_Agentic_RAG_LangChain"
 version = "0.1.0"
 description = "RAG system with multi-agent chunk analysis using LangChain, DeepAgents, and OpenRouter"
 readme = "README.md"
@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.scripts]
-rag-langchain = "rag_langchain:main"
+DocumentQA_Agentic_RAG_LangChain = "DocumentQA_Agentic_RAG_LangChain:main"
 
 [build-system]
 requires = ["uv_build>=0.13.7,<0.14.0"]

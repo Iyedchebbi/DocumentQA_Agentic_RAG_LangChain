@@ -57,7 +57,7 @@ agent = create_deep_agent(
 
 
 # 6. Ask a question
-example_query = "What skills existed"
+example_query = "What skills existed in this portfolio, answer me in 5 lines paragraph with emogies"
 
 
 # 7. Execute the agent

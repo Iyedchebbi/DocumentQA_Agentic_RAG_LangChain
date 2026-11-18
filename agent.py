@@ -56,19 +56,18 @@ agent = create_deep_agent(
 )
 
 
-# 6. Ask a question
-example_query = "What skills existed in this portfolio, answer me in 5 lines paragraph with emogies"
+while True:
+    # 6. Ask a question
+    example_query = input("Ask me a question and get the best answer:\n")
 
+    # 7. Execute the agent
+    result = agent.invoke(
+        {
+            "messages": [
+                HumanMessage(content=example_query)
+            ]
+        }
+    )
 
-# 7. Execute the agent
-result = agent.invoke(
-    {
-        "messages": [
-            HumanMessage(content=example_query)
-        ]
-    }
-)
-
-
-# 8. Display the answer
-print(result["messages"][-1].content)
+    # 8. Display the answer
+    print(result["messages"][-1].content)
